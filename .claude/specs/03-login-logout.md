@@ -1,7 +1,7 @@
 # Spec: Login and Logout
 
 ## Overview
-Implement session-based authentication for Spendly: upgrade the existing `GET /login` stub into a full login form that validates credentials against the `users` table and starts a Flask session, and implement the `GET /logout` stub to clear that session and bring user back to landing page. This is the step that turns Spendly from a collection of public pages into an app with an authenticated user context — every following step (profile, expenses) depends on knowing who is logged in.
+Implement session-based authentication for Spendly: upgrade the existing `GET /login` stub into a full login form that validates credentials against the `users` table and starts a Flask session, and implement the `GET /logout` stub to clear that session. This is the step that turns Spendly from a collection of public pages into an app with an authenticated user context — every following step (profile, expenses) depends on knowing who is logged in.
 
 ## Depends on
 - Step 01 — Database setup (`users` table, `get_db()`)
